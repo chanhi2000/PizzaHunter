@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EE7FE92E1FE6EA5A8EE1CDF /* Pods_Pizza_Hunter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A7261515A407FA319040BA /* Pods_Pizza_Hunter.framework */; };
+		EADF4F6920BD399600BE0AE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADF4F6820BD399600BE0AE4 /* AppDelegate.swift */; };
+		EADF4F6B20BD399600BE0AE4 /* RestaurantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADF4F6A20BD399600BE0AE4 /* RestaurantListViewController.swift */; };
+		EADF4F6E20BD399600BE0AE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADF4F6C20BD399600BE0AE4 /* Main.storyboard */; };
+		EADF4F7020BD399700BE0AE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADF4F6F20BD399700BE0AE4 /* Assets.xcassets */; };
+		EADF4F7320BD399700BE0AE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADF4F7120BD399700BE0AE4 /* LaunchScreen.storyboard */; };
+		EADF4F7F20BD3E1400BE0AE4 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADF4F7E20BD3E1400BE0AE4 /* Restaurant.swift */; };
+		EADF4F8120BD3E4100BE0AE4 /* RestaurantDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADF4F8020BD3E4100BE0AE4 /* RestaurantDetails.swift */; };
+		EADF4F8320BD3EC900BE0AE4 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADF4F8220BD3EC900BE0AE4 /* BaseTableViewCell.swift */; };
+		EADF4F8520BD3F5F00BE0AE4 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADF4F8420BD3F5F00BE0AE4 /* BaseView.swift */; };
+		EADF4F8720BD414C00BE0AE4 /* RestaurantListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADF4F8620BD414C00BE0AE4 /* RestaurantListTableViewCell.swift */; };
+		EADF4F8920BD417000BE0AE4 /* BaseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADF4F8820BD417000BE0AE4 /* BaseLabel.swift */; };
+		EADF4F8B20BD424000BE0AE4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADF4F8A20BD424000BE0AE4 /* Extensions.swift */; };
+		EADF4F8D20BD42CD00BE0AE4 /* BaseImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADF4F8C20BD42CD00BE0AE4 /* BaseImageView.swift */; };
+		EADF4F8F20BD440500BE0AE4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADF4F8E20BD440500BE0AE4 /* Constants.swift */; };
+		EADF4F9220BD472200BE0AE4 /* RestaurantListTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADF4F9120BD472200BE0AE4 /* RestaurantListTableViewHeader.swift */; };
+		EADF4F9420BD48EA00BE0AE4 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADF4F9320BD48EA00BE0AE4 /* BaseButton.swift */; };
+		EADF4F9720BD643A00BE0AE4 /* YelpAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADF4F9620BD643A00BE0AE4 /* YelpAPI.swift */; };
+		EADF4F9920BD675800BE0AE4 /* BaseRemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADF4F9820BD675800BE0AE4 /* BaseRemoteImageView.swift */; };
+		EADF4F9B20BD76EB00BE0AE4 /* RestaurantDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADF4F9A20BD76EB00BE0AE4 /* RestaurantDetailsViewController.swift */; };
+		EADF4F9D20BE2C1E00BE0AE4 /* BaseCosmosVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADF4F9C20BE2C1D00BE0AE4 /* BaseCosmosVIew.swift */; };
+		EADF4F9F20BE2CED00BE0AE4 /* BaseStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADF4F9E20BE2CED00BE0AE4 /* BaseStackView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5AA33F5DE04A3C4AB004A556 /* Pods-Pizza Hunter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pizza Hunter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pizza Hunter/Pods-Pizza Hunter.release.xcconfig"; sourceTree = "<group>"; };
+		86A7261515A407FA319040BA /* Pods_Pizza_Hunter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pizza_Hunter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC171375BFEACCA0AABB8A4 /* Pods-Pizza Hunter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pizza Hunter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pizza Hunter/Pods-Pizza Hunter.debug.xcconfig"; sourceTree = "<group>"; };
+		EADF4F6520BD399600BE0AE4 /* Pizza Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pizza Hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADF4F6820BD399600BE0AE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EADF4F6A20BD399600BE0AE4 /* RestaurantListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListViewController.swift; sourceTree = "<group>"; };
+		EADF4F6D20BD399600BE0AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EADF4F6F20BD399700BE0AE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EADF4F7220BD399700BE0AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EADF4F7420BD399700BE0AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EADF4F7E20BD3E1400BE0AE4 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		EADF4F8020BD3E4100BE0AE4 /* RestaurantDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetails.swift; sourceTree = "<group>"; };
+		EADF4F8220BD3EC900BE0AE4 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		EADF4F8420BD3F5F00BE0AE4 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		EADF4F8620BD414C00BE0AE4 /* RestaurantListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListTableViewCell.swift; sourceTree = "<group>"; };
+		EADF4F8820BD417000BE0AE4 /* BaseLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLabel.swift; sourceTree = "<group>"; };
+		EADF4F8A20BD424000BE0AE4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EADF4F8C20BD42CD00BE0AE4 /* BaseImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseImageView.swift; sourceTree = "<group>"; };
+		EADF4F8E20BD440500BE0AE4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EADF4F9120BD472200BE0AE4 /* RestaurantListTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListTableViewHeader.swift; sourceTree = "<group>"; };
+		EADF4F9320BD48EA00BE0AE4 /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		EADF4F9620BD643A00BE0AE4 /* YelpAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpAPI.swift; sourceTree = "<group>"; };
+		EADF4F9820BD675800BE0AE4 /* BaseRemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRemoteImageView.swift; sourceTree = "<group>"; };
+		EADF4F9A20BD76EB00BE0AE4 /* RestaurantDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsViewController.swift; sourceTree = "<group>"; };
+		EADF4F9C20BE2C1D00BE0AE4 /* BaseCosmosVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCosmosVIew.swift; sourceTree = "<group>"; };
+		EADF4F9E20BE2CED00BE0AE4 /* BaseStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseStackView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EADF4F6220BD399600BE0AE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE7FE92E1FE6EA5A8EE1CDF /* Pods_Pizza_Hunter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B0D86A52868E963934F5DEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86A7261515A407FA319040BA /* Pods_Pizza_Hunter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		738A085766947C99046C3BDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFC171375BFEACCA0AABB8A4 /* Pods-Pizza Hunter.debug.xcconfig */,
+				5AA33F5DE04A3C4AB004A556 /* Pods-Pizza Hunter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EADF4F5C20BD399500BE0AE4 = {
+			isa = PBXGroup;
+			children = (
+				EADF4F6720BD399600BE0AE4 /* Pizza Hunter */,
+				EADF4F6620BD399600BE0AE4 /* Products */,
+				738A085766947C99046C3BDA /* Pods */,
+				0B0D86A52868E963934F5DEF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EADF4F6620BD399600BE0AE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EADF4F6520BD399600BE0AE4 /* Pizza Hunter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EADF4F6720BD399600BE0AE4 /* Pizza Hunter */ = {
+			isa = PBXGroup;
+			children = (
+				EADF4F9520BD642E00BE0AE4 /* API */,
+				EADF4F7D20BD3DFE00BE0AE4 /* Models */,
+				EADF4F7C20BD3DF900BE0AE4 /* Controllers */,
+				EADF4F7B20BD3DF500BE0AE4 /* Views */,
+				EADF4F6820BD399600BE0AE4 /* AppDelegate.swift */,
+				EADF4F8E20BD440500BE0AE4 /* Constants.swift */,
+				EADF4F8A20BD424000BE0AE4 /* Extensions.swift */,
+				EADF4F7420BD399700BE0AE4 /* Info.plist */,
+				EADF4F7A20BD39AD00BE0AE4 /* Supporting Files */,
+			);
+			path = "Pizza Hunter";
+			sourceTree = "<group>";
+		};
+		EADF4F7A20BD39AD00BE0AE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EADF4F6F20BD399700BE0AE4 /* Assets.xcassets */,
+				EADF4F6C20BD399600BE0AE4 /* Main.storyboard */,
+				EADF4F7120BD399700BE0AE4 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EADF4F7B20BD3DF500BE0AE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EADF4F9020BD447C00BE0AE4 /* Base */,
+				EADF4F8620BD414C00BE0AE4 /* RestaurantListTableViewCell.swift */,
+				EADF4F9120BD472200BE0AE4 /* RestaurantListTableViewHeader.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EADF4F7C20BD3DF900BE0AE4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EADF4F6A20BD399600BE0AE4 /* RestaurantListViewController.swift */,
+				EADF4F9A20BD76EB00BE0AE4 /* RestaurantDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EADF4F7D20BD3DFE00BE0AE4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EADF4F7E20BD3E1400BE0AE4 /* Restaurant.swift */,
+				EADF4F8020BD3E4100BE0AE4 /* RestaurantDetails.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EADF4F9020BD447C00BE0AE4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EADF4F8420BD3F5F00BE0AE4 /* BaseView.swift */,
+				EADF4F8220BD3EC900BE0AE4 /* BaseTableViewCell.swift */,
+				EADF4F8820BD417000BE0AE4 /* BaseLabel.swift */,
+				EADF4F8C20BD42CD00BE0AE4 /* BaseImageView.swift */,
+				EADF4F9320BD48EA00BE0AE4 /* BaseButton.swift */,
+				EADF4F9820BD675800BE0AE4 /* BaseRemoteImageView.swift */,
+				EADF4F9C20BE2C1D00BE0AE4 /* BaseCosmosVIew.swift */,
+				EADF4F9E20BE2CED00BE0AE4 /* BaseStackView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EADF4F9520BD642E00BE0AE4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				EADF4F9620BD643A00BE0AE4 /* YelpAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EADF4F6420BD399600BE0AE4 /* Pizza Hunter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADF4F7720BD399700BE0AE4 /* Build configuration list for PBXNativeTarget "Pizza Hunter" */;
+			buildPhases = (
+				2556A45AC1944905F5995923 /* [CP] Check Pods Manifest.lock */,
+				EADF4F6120BD399600BE0AE4 /* Sources */,
+				EADF4F6220BD399600BE0AE4 /* Frameworks */,
+				EADF4F6320BD399600BE0AE4 /* Resources */,
+				D555517BC9C9B03F1ADDEC82 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pizza Hunter";
+			productName = "Pizza Hunter";
+			productReference = EADF4F6520BD399600BE0AE4 /* Pizza Hunter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EADF4F5D20BD399500BE0AE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = MarkiiimarK;
+				TargetAttributes = {
+					EADF4F6420BD399600BE0AE4 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EADF4F6020BD399500BE0AE4 /* Build configuration list for PBXProject "Pizza Hunter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EADF4F5C20BD399500BE0AE4;
+			productRefGroup = EADF4F6620BD399600BE0AE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EADF4F6420BD399600BE0AE4 /* Pizza Hunter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EADF4F6320BD399600BE0AE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADF4F7320BD399700BE0AE4 /* LaunchScreen.storyboard in Resources */,
+				EADF4F7020BD399700BE0AE4 /* Assets.xcassets in Resources */,
+				EADF4F6E20BD399600BE0AE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2556A45AC1944905F5995923 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pizza Hunter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D555517BC9C9B03F1ADDEC82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pizza Hunter/Pods-Pizza Hunter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/Siesta/Siesta.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Siesta.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pizza Hunter/Pods-Pizza Hunter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EADF4F6120BD399600BE0AE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADF4F9F20BE2CED00BE0AE4 /* BaseStackView.swift in Sources */,
+				EADF4F9420BD48EA00BE0AE4 /* BaseButton.swift in Sources */,
+				EADF4F6B20BD399600BE0AE4 /* RestaurantListViewController.swift in Sources */,
+				EADF4F8F20BD440500BE0AE4 /* Constants.swift in Sources */,
+				EADF4F9920BD675800BE0AE4 /* BaseRemoteImageView.swift in Sources */,
+				EADF4F8B20BD424000BE0AE4 /* Extensions.swift in Sources */,
+				EADF4F8720BD414C00BE0AE4 /* RestaurantListTableViewCell.swift in Sources */,
+				EADF4F8120BD3E4100BE0AE4 /* RestaurantDetails.swift in Sources */,
+				EADF4F6920BD399600BE0AE4 /* AppDelegate.swift in Sources */,
+				EADF4F8520BD3F5F00BE0AE4 /* BaseView.swift in Sources */,
+				EADF4F8920BD417000BE0AE4 /* BaseLabel.swift in Sources */,
+				EADF4F8D20BD42CD00BE0AE4 /* BaseImageView.swift in Sources */,
+				EADF4F9720BD643A00BE0AE4 /* YelpAPI.swift in Sources */,
+				EADF4F8320BD3EC900BE0AE4 /* BaseTableViewCell.swift in Sources */,
+				EADF4F7F20BD3E1400BE0AE4 /* Restaurant.swift in Sources */,
+				EADF4F9B20BD76EB00BE0AE4 /* RestaurantDetailsViewController.swift in Sources */,
+				EADF4F9D20BE2C1E00BE0AE4 /* BaseCosmosVIew.swift in Sources */,
+				EADF4F9220BD472200BE0AE4 /* RestaurantListTableViewHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EADF4F6C20BD399600BE0AE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EADF4F6D20BD399600BE0AE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EADF4F7120BD399700BE0AE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EADF4F7220BD399700BE0AE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EADF4F7520BD399700BE0AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EADF4F7620BD399700BE0AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EADF4F7820BD399700BE0AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC171375BFEACCA0AABB8A4 /* Pods-Pizza Hunter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XTP2UM34H;
+				INFOPLIST_FILE = "Pizza Hunter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.markiiimark.Pizza-Hunter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EADF4F7920BD399700BE0AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AA33F5DE04A3C4AB004A556 /* Pods-Pizza Hunter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XTP2UM34H;
+				INFOPLIST_FILE = "Pizza Hunter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.markiiimark.Pizza-Hunter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EADF4F6020BD399500BE0AE4 /* Build configuration list for PBXProject "Pizza Hunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADF4F7520BD399700BE0AE4 /* Debug */,
+				EADF4F7620BD399700BE0AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADF4F7720BD399700BE0AE4 /* Build configuration list for PBXNativeTarget "Pizza Hunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADF4F7820BD399700BE0AE4 /* Debug */,
+				EADF4F7920BD399700BE0AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EADF4F5D20BD399500BE0AE4 /* Project object */;
+}
